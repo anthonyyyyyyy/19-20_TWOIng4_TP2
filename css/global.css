@@ -19,13 +19,16 @@ a {
 }
 
 .wrapper {
-    padding: 25px 0;
+    padding: 25px;
+    margin-top: 25px;
 }
 
 body > header {
     margin-bottom: 20px;
     background: white;
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 header .logo-search form  {
@@ -91,6 +94,7 @@ h1 {
 }
 
 .name p { 
+
     color: #a0aab1;
     font-size: 12px;
 }
@@ -176,9 +180,11 @@ input.submit {
 }
 
 #albums article img {
+    position: relative;
+    margin-right: 10px;
     border: 1px solid #cbcbcb;
     transition: all 0.3s;
-    width: 100%;
+    width: 120px;
 }
 
 #albums article img:hover {
@@ -187,6 +193,7 @@ input.submit {
 }
 
 #albums article figcaption {
+    position: relative;
     color: #4b5c66;
     margin-top: 6px;
     white-space: nowrap;
